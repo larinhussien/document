@@ -1,0 +1,301 @@
+/*
+E6BFDB
+E6BFDB
+#9D5981 
+6c63ff
+*/
+
+.w-100 {
+    height: 600px;
+    width: 100%!important;
+}
+
+.navbar-expand-lg {
+    background-color: #9D5981 !important;
+    color: #E6BFDB !important;
+}
+
+.navbar-expand-lg .nav-link {
+    color: rgb(248, 252, 7) !important;
+    font-weight: 100px;
+}
+
+body {
+    perspective: 600px;
+}
+
+
+/*start sign up */
+
+.visible-sm {
+    display: block;
+}
+
+.signup-img {
+    float: left;
+    background-image: url(../image/4.png);
+    background-size: cover;
+    width: 830px;
+    height: 39.0rem;
+}
+
+.signup-img .header {
+    margin: 30% auto;
+    color: #5c242A;
+    line-height: 30px;
+}
+
+.signup-img .btn-primary {
+    color: #fff;
+    background-color: #9D5981 !important;
+    border-color: #6c63ff !important;
+    margin-top: 10px;
+    width: 355px;
+    border-radius: 6px;
+}
+
+.card_signup {
+    float: right;
+    margin-top: 15%;
+    margin-left: 100px;
+}
+
+.card_signup header {
+    position: absolute;
+    margin-top: -100px;
+}
+
+.card_signup header h2 {
+    text-align: center;
+    margin-left: 89px;
+}
+
+@media (max-width: 575.98px) {
+    .card_signup {
+        margin: 20% auto;
+        margin-right: 100px;
+    }
+    .card_signup .form-group {
+        width: 300px !important;
+    }
+    .card_signup .form-group .label {
+        width: 300px !important;
+        margin-top: 3px;
+    }
+    .card_signup .form-group .setect {
+        width: 164px !important;
+    }
+    .card_signup .form-group .setect_stage {
+        width: 90px;
+    }
+    .visible-sm {
+        display: none !important;
+    }
+    .card_signup .btn-primary {
+        width: 80px;
+        width: 80px !important;
+        font-size: 13px;
+    }
+}
+
+.card_signup .form-group {
+    width: 355px;
+}
+
+.card_signup .form-group .input-icons i {
+    position: absolute;
+    margin-top: 3px;
+    margin-left: 19px;
+    color: #9D5981;
+}
+
+.card_signup .form-group input {
+    padding: 19px;
+    padding-left: 60px;
+    border: 2px solid #E6BFDB !important;
+}
+
+.card_signup .form-group select {
+    padding: 15px;
+    padding-left: 60px;
+    border: 2px solid #E6BFDB !important;
+}
+
+.card_signup .btn-primary {
+    color: #fff;
+    background-color: #9D5981 !important;
+    border-color: #6c63ff !important;
+    margin-top: 10px;
+    width: 355px;
+    border-radius: 6px;
+}
+
+.card_signup .link {
+    margin-top: 20px;
+    margin-left: 80px;
+    color: #cb97c7;
+}
+
+.card_login .link a {
+    font-weight: bold;
+    color: #5c242A !important;
+}
+
+.signup-wave {
+    float: right;
+}
+
+.signup-wave img {
+    width: 250px;
+    position: absolute;
+    margin-top: -640px;
+    margin-left: -250px;
+    transform: rotate(180deg);
+}
+
+.signup-wave2 {
+    float: right;
+}
+
+.signup-wave2 img {
+    width: 250px;
+    position: absolute;
+    margin-left: -249px;
+    margin-top: -121px;
+    transform: rotateY(179deg);
+}
+
+
+/*start login page */
+
+
+/*end login page */
+
+
+/* Start Dashboard Page */
+
+.formBox {
+    margin: 1% auto;
+}
+
+.formBox h1 {
+    margin: 2% auto;
+}
+
+.formBox .home-stats .stat {
+    font-size: 15px;
+    color: #FFF;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    height: 125px;
+    margin: 7px;
+}
+
+.formBox .home-stats .stat i {
+    position: absolute;
+    font-size: 80px;
+    top: 35px;
+    left: 30px;
+}
+
+.formBox .home-stats .stat .info {
+    float: right;
+    margin-right: 12px;
+    font-size: 16px;
+}
+
+.formBox .home-stats .stat a {
+    color: #FFF;
+}
+
+.formBox .home-stats .stat a:hover {
+    text-decoration: none;
+}
+
+.formBox .home-stats .stat span {
+    display: block;
+    font-size: 60px;
+}
+
+.formBox .home-stats .st-members {
+    background-color: #5c242A;
+}
+
+.formBox .home-stats .st-pending {
+    background-color: #8e44ad;
+}
+
+.formBox .home-stats .st-items {
+    background-color: #9D5981;
+}
+
+.formBox .home-stats .st-comments {
+    background-color: #cb97c7;
+}
+
+
+/* End Dashboard Page */
+
+
+/*start admin page */
+
+.anchor {
+    margin-top: -40px;
+    margin-left: 4px;
+    font-size: 23px;
+    font-weight: bolder;
+    color: #9d5981;
+}
+
+.my-5 {
+    margin-top: 3rem !important;
+    margin-bottom: 1rem !important;
+}
+
+.header-a a {
+    margin-left: 4px;
+    font-size: 20px;
+    color: #9d5981;
+    font-weight: bolder;
+    font-style: revert;
+}
+
+.header-a {
+    margin-left: 4px;
+    font-size: 20px;
+    color: #9d5981;
+    font-weight: bolder;
+    font-style: revert;
+    box-shadow: 1px 1px 1px #9D5981;
+    box-shadow: 1px 1px 1px 1px#ddd;
+    padding: 8px;
+    margin-bottom: 18px;
+    margin-top: 10px;
+}
+
+.header-a .homeicon i {
+    margin-left: 2px;
+}
+
+.card-outline-secondary {
+    box-shadow: 1px 1px 1px 1px#ddd;
+}
+
+.card-outline-secondary .add_btn {
+    margin-left: 166px;
+    background-color: #cb97c7;
+}
+
+.card-outline-secondary .add_btn:hover {
+    background-color: green;
+    transition: 12s;
+}
+
+.btn-info {
+    color: #fff;
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+    width: 103px;
+    margin-left: 5px;
+}
